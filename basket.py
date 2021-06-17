@@ -4,7 +4,7 @@ def create_picnic_basket(healthy, hungry, initial_basket=DEFAULT_INITIAL_BASKET)
     basket = initial_basket
     if healthy:
 	if "strawberry" not in basket:
-        		basket.append("strawberry")
+        	basket.append("strawberry")
     else:
         basket.append("jam")
 
